@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人主页</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background: white;
+            position: fixed;
+            width:100%;
+        }
+        .hbox{
+            width: 960px;
+            padding-right: auto;
+            padding-left: auto;
+            line-height:60px;
+            border-bottom: 1px solid gray;
+            margin: 0 auto;
+            z-index: 11;
+        }
+        img{
+            height: 40px;
+            vertical-align: middle;
+        }
+        ul{
+            list-style-type: none;
+            float: right;
+        }
+        li{
+            float: left;
+        }
+        a{
+            display: inline-block;
+            width:80px;
+            text-align: center;
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover{
+            background-color: gray;
+            color: #fff;
+        }
+        .clearfix::after{
+            clear: both;
+            content:"";
+            display: block;
+            visibility: hidden;
+            height: 0;
+        }
+        .banner{
+            padding-top:65px;
+        }
+        .banner img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .banner p{
+            line-height: 0.8;
+            width: 960px;
+            margin: 0 auto;
+        }
+        p::before{
+            content: "";
+            font-size: 30px;
+            font-family: 宋体;
+        }
+        p:after{
+            content: ;
+        }
+        .container{
+            width: 960px;
+            margin: 0 auto;
+        }
+        .container img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        h2{
+            border-left:20px solid gold;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="hbox">
+        <img src="images/logo.png" alt="logo">
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#html">HTML5</a></li>
+            <li><a href="#classmate">我的同学</a></li>
+            <li><a href="#fmm">我的家乡</a></li>
+            <li><a href="#scholl">我的学校</a></li>
+            <li><a href="#">关注</a></li>
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+</header>
+<div class="banner">
+    <img src="images/header.jpg" alt="header">
+    <p>学好一门技术的唯一方法是使用它，在使用它的过程中才能真正学会它。
+        如果能够在使用它的过程中体会到乐趣，就是学习的最佳状态 。
+        希望大家在学习HTML5的过程中多多练习， 多敲代码一定会有回报，
+        意想不到的收获都会在使用的过程中迸发出来。</p>
+</div>
+<div class="container">
+    <section id="home">
+        <h2>HTML5</h2>
+        <img src="images/html5.jpg" alt="">
+        <p>从小就喜欢学习，感觉自己的自学能力超强，
+            也喜欢把自己学会的知识分享给大家。我希望自己能够成为一个好老师 ，
+            把每一个同学都教好，让他们都能有所成就。
+            我认为一个好老师不仅要有较好的技术，也要对学生严格要求。
+            放任不管只有部分同学能安心学习，
+            严格要求才能保证绝大多数同学都能稳下心来好好学习。</p>
+    </section>
+</div>
+<div class="container">
+    <section id="HTML5">
+        <h2>HTML5</h2>
+        <img src="images/html5.jpg" alt="">
+        <p>从小就喜欢学习，感觉自己的自学能力超强，
+            也喜欢把自己学会的知识分享给大家。我希望自己能够成为一个好老师 ，
+            把每一个同学都教好，让他们都能有所成就。
+            我认为一个好老师不仅要有较好的技术，也要对学生严格要求。
+            放任不管只有部分同学能安心学习，
+            严格要求才能保证绝大多数同学都能稳下心来好好学习。</p>
+    </section>
+</div>
+<div class="container">
+    <section id="classmate">
+        <h2>HTML5</h2>
+        <img src="images/html5.jpg" alt="">
+        <p>从小就喜欢学习，感觉自己的自学能力超强，
+            也喜欢把自己学会的知识分享给大家。我希望自己能够成为一个好老师 ，
+            把每一个同学都教好，让他们都能有所成就。
+            我认为一个好老师不仅要有较好的技术，也要对学生严格要求。
+            放任不管只有部分同学能安心学习，
+            严格要求才能保证绝大多数同学都能稳下心来好好学习。</p>
+    </section>
+</div>
+<div class="container">
+    <section id="fmm">
+        <h2>HTML5</h2>
+        <img src="images/html5.jpg" alt="">
+        <p>从小就喜欢学习，感觉自己的自学能力超强，
+            也喜欢把自己学会的知识分享给大家。我希望自己能够成为一个好老师 ，
+            把每一个同学都教好，让他们都能有所成就。
+            我认为一个好老师不仅要有较好的技术，也要对学生严格要求。
+            放任不管只有部分同学能安心学习，
+            严格要求才能保证绝大多数同学都能稳下心来好好学习。</p>
+    </section>
+</div>
+<div class="container">
+    <section id="scholl">
+        <h2>HTML5</h2>
+        <img src="images/html5.jpg" alt="">
+        <p>从小就喜欢学习，感觉自己的自学能力超强，
+            也喜欢把自己学会的知识分享给大家。我希望自己能够成为一个好老师 ，
+            把每一个同学都教好，让他们都能有所成就。
+            我认为一个好老师不仅要有较好的技术，也要对学生严格要求。
+            放任不管只有部分同学能安心学习，
+            严格要求才能保证绝大多数同学都能稳下心来好好学习。</p>
+    </section>
+</div>
+<footer>
+    <span>智游教育 ©2016版权所有</span>
+    <span>电话：0371-123456789</span>
+    <address>郑州市经开区河南通信产业园6楼605</address>
+</footer>
+</body>
+</html>
